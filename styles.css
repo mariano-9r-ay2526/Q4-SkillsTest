@@ -1,0 +1,64 @@
+       body {
+            background-color: #f8f9fa;
+        }
+
+        .sidebar {
+            width: 240px;
+            background-color: #212529;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding-top: 20px;
+        }
+
+        .sidebar a {
+            color: #adbbca;
+            text-decoration: none;
+            padding: 12px 20px;
+            display: block;
+        }
+
+        .sidebar a:hover {
+            background-color: #343a40;
+            color: white;
+        }
+
+        .sidebar .active {
+            color: #00d2ff;
+            background-color: #2c3034;
+        }
+
+        .main-content {
+            margin-left: 260px;
+            padding: 40px;
+        }
+
+        .subject-box {
+            background-color: #e2e4e8;
+            border-radius: 15px;
+            padding: 20px;
+            border: 1px solid #d1d5db;
+        }
+
+        .subject-img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .header-badge {
+            background-color: #212529;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 8px;
+            display: inline-block;
+            font-weight: bold;
+        }
+
+        .bottom-bar {
+            background-color: #6c757d;
+            height: 8px;
+            border-radius: 4px;
+            margin-top: 25px;
+        }
